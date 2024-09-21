@@ -31,6 +31,40 @@ body{
     width: 35%;
     margin: 10px;
     padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.add-song{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background-color: rgb(155, 141, 141);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.add-song:hover{
+    cursor: pointer;
+    background-color: #6d6969;
+}
+.remove-song{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: rgb(155, 141, 141);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.remove-song:hover{
+    background-color: #6d6969;
+    cursor: pointer;
 }
 .rigth{
     margin: 10px;
