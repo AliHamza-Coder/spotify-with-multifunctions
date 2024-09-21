@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza's Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="welcome">
+            <h1>Tic Tac Toe</h1>
+            <h3>Start Game</h3>
+            <div class="names">
+                <input type="text" class="player1" id="player1" placeholder="Enter Player 1 Name">
+                <input type="text" class="player2" id="player2" placeholder="Enter Player 2 Name">
+            </div>
+            <button class="start-btn" id="start-btn">Start</button>
+        </div>
+    </div>
+    <div class="game-box">
+        <div class="game-details">
+            <div class="game-players">
+            </div>
+            <div class="current-player">
+            </div>
+        </div>
+        <div class="tic-tac-toe-box">
+            <div class="row1">
+                <div class="box box1"></div>
+                <div class="box box2"></div>
+                <div class="box box3"></div>
+            </div>
+            <div class="row2">
+                <div class="box box4"></div>
+                <div class="box box5"></div>
+                <div class="box box6"></div>
+            </div>
+            <div class="row3">
+                <div class="box box7"></div>
+                <div class="box box8"></div>
+                <div class="box box9"></div>
+            </div>
+        </div>
+        <div class="result">
+            <div class="won-player"></div>
+            <button id="replay">Replay</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
